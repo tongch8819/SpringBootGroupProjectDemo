@@ -1,0 +1,7 @@
+package hkmu.wadd.repositories;
+
+import hkmu.wadd.models.Poll;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PollRepository extends JpaRepository<Poll, Long> {
+}
